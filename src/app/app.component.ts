@@ -1,3 +1,5 @@
+
+import { JsonMenuPage } from './../pages/json-menu/json-menu';
 import { GMapPage } from './../pages/g-map/g-map';
 import { BarcodeScannerPage } from './../pages/barcode-scanner/barcode-scanner';
 import { Component, ViewChild } from '@angular/core';
@@ -30,8 +32,8 @@ export class MyApp {
       { title: 'List', component: ListPage, icon : 'apps' },
       { title: 'SocialInfoPage', component: SocialInfoPage, icon : 'apps' },
       { title: 'BarcodeScanner', component: BarcodeScannerPage,icon : 'apps' },
-      { title: 'Geolocation', component: GMapPage,icon : 'apps' }
-
+      { title: 'Geolocation', component: GMapPage,icon : 'apps' },
+      { title: 'JsonMenuPage', component: JsonMenuPage,icon : 'apps' }
       
 
     ];
